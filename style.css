@@ -1,0 +1,354 @@
+/*Theme Name: Home Girls Unite
+Author : Maanka_u_roon
+Description: Official theme for Home Girls Unite
+Version 1.0
+*/
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+#wrapper{
+    margin: 0 auto;
+}
+/*Navigation*/
+.header{
+    margin: 0 auto;
+    padding: 0;
+    color: #000000;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    display: flex;
+    height: 130px;
+    border-bottom: 1px solid black;
+   
+ 
+}
+.nav-bar{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+.menu{
+    list-style-type: none;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    /* flex: 0 1 30vw; */
+    align-items: center;
+    
+}
+.menu-items{
+    margin: 0 1rem;
+   
+}
+.menu-items a{
+    color:#000;
+    text-decoration: none;
+}
+.menu-items a:hover{
+    color: #F87484;
+    text-decoration: none;
+}
+.menu-items a:active{
+    color: #F87484;
+    border-bottom:2px solid #F87484;
+}
+.icon{
+    margin: 0 0.5rem;
+}
+.fa-instagram{
+    color: #F87484;
+}
+.fa-spotify{
+    color: #6F6F6F;
+}
+.fa-twitter{
+    color: #F1AF56;
+}
+
+
+.title{
+    text-align: center;
+    font-size: 32px;
+    color: #F87484;
+    padding: 0;
+    letter-spacing: -2px;
+    margin: 0;
+    font-weight: normal;
+}
+.subtitle{
+    font-size: 15px;
+    text-align: center;
+    color: #F1AF56;
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+}
+/*Hero*/
+.hero{
+    justify-content: stretch;
+    display: flex;
+    margin: 0;
+    align-items: stretch;
+    padding: 0;
+    background-color: #DCA7A3;
+    box-sizing: border-box;
+    flex-direction: column-reverse;
+}
+.logo{
+    padding: 20px;
+    margin: 20px;
+}
+.logo a{
+    text-decoration: none;
+}
+.power-icon{
+    color: #000;
+    font-size: 20px;
+}
+.left{
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+.hero-title{
+    Font-Family: 'Roboto Condensed', Sans-Serif;
+    Font-Size: 55px;
+    margin: 40px;
+    align-self: center;
+}
+.hero-subtitle{
+    Font-Family: 'Cabin', Sans-Serif;
+    Font-Size: 18px;
+
+}
+.txt-rotate{
+    text-transform: uppercase;
+}
+.hero-image{
+    max-width: 100%;
+}
+
+/*Main*/
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-heading{
+    width: max-content;
+    margin: 0 auto;
+}
+.section-heading h3{
+    font-size: 25px;
+    border-bottom: 2px solid #F1AF56;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Roboto Condensed', Sans-Serif;
+    text-transform: uppercase;
+    font-weight: 400;
+
+}
+.mission {
+    grid-gap: 20px;
+    width: 65%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 0 auto;
+}
+.content-left{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+.content-right img {
+    width: 100%;
+
+}
+.content-left-title{
+    margin: 0;
+    font-family: 'Roboto Condensed', Sans-Serif;
+
+}
+.mission-btn {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    align-self: center;
+    background: #DCA7A3;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+
+}
+.mission-btn a {
+    text-decoration: none;
+    color: white;
+}
+.content-left-text{
+    font-size: 20px;
+    text-align: justify;
+    Font-Family: 'Cabin', Sans-Serif;
+}
+.highlight{
+    text-decoration: underline #DCA7A3;
+}
+/*Blog posts*/
+.blog-post{
+    margin-bottom: 50px;
+    width: 40%;
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.blogsneak{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 65%;
+    margin: 0 auto;
+    grid-gap: 30px;
+ 
+}
+.card-image img{
+    width: 100%;
+}
+.card{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.ff{
+    width: 100%;
+
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.card-date{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 0;
+}
+.card-descri{
+    text-align: justify;
+    margin: 20 20px;
+}
+
+.read-more {
+    padding: 0;
+}
+.read-more a{
+    text-decoration: underline;
+    color: pink;
+}
+.view-more{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    background: 5;
+    border: 1px solid #F1AF56;
+    text-transform: uppercase;
+    color: #454545;
+    margin: 50px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.view-more a {
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    color: #454545;
+}
+.footer{
+    width: 100%;
+    background:#F1AF56;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    align-items: center;
+    justify-items: center;
+    color: #454545;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-right{
+    width: 85%;
+}
+.footer-list{
+    display: flex;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.footer-list li{
+    margin-right: 10px;
+}
+.footer-list li a {
+    text-decoration: none;
+    color: #454545;
+    
+}
+.footer-list li a:hover{
+    color: #F87484;
+}
+.icon-footer-list{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-content: center;
+}
+.icon-footer {
+color:#fff;
+font-size: 30px;
+}
+
+/*Media queries*/
+
+@media (max-width:1168px){
+    .nav-bar {
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+    } 
+    .menu {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 10px;
+    }
+
+    .logo {
+        padding: 0;
+        margin: 0;
+        padding-top: 20px;
+    }
+    
+
+}
+@media (max-width:654px){
+    .menu {
+display: none;
+    }
+}
+
